@@ -1,0 +1,74 @@
+cv:
+  name: Jingsheng Yan
+  label: Master's Student at Shanghai Jiao Tong University
+  email: yanjingsheng@sjtu.edu.cn
+  location: Shanghai, China
+  image: ""
+  summary: Researcher in operating systems, CXL shared memory, distributed shared memory, and mobile AI agent systems.
+
+  social_networks:
+    - network: GitHub
+      username: ShadowNearby
+
+  sections:
+    Education:
+      - institution: Shanghai Jiao Tong University
+        location: Shanghai, China
+        area: Computer Science
+        studyType: Master's Degree
+        start_date: 2025-09
+        end_date: present
+        highlights:
+          - Institute of Parallel and Distributed Systems (IPADS)
+          - Advised by Prof. Mingkai Dong
+
+      - institution: Shanghai Jiao Tong University
+        location: Shanghai, China
+        area: Computer Science
+        studyType: Bachelor's Degree
+        start_date: 2021-09
+        end_date: 2025-06
+
+    Publications:
+      - title: "StarfishOS: Revisiting Single System Image on CXL with State-partitioned Microkernel"
+        authors:
+          - Fangnuo Wu
+          - Jingsheng Yan
+          - Mingkai Dong
+          - Wenjun Cai
+          - Jingwei Xu
+          - Tong Xin
+          - Haibo Chen
+        publisher: ACM Symposium on Operating Systems Principles (SOSP)
+        releaseDate: 2026
+        summary: To appear at SOSP 2026.
+
+      - title: "RelayAgent: Mobile Task Automation by Delegating Subtasks to In-App AI Assistants"
+        authors:
+          - Jingsheng Yan
+          - Fangnuo Wu
+          - Mingkai Dong
+          - Haibo Chen
+        publisher: Preprint
+        releaseDate: 2026
+        url: https://github.com/ShadowNearby/RelayAgent
+
+    Research Interests:
+      - name: Systems and AI Agents
+        icon: fa-solid fa-microchip
+        keywords: "Operating Systems, Microkernels, CXL Shared Memory, Distributed Shared Memory, Mobile AI Agents"
+
+    Projects:
+      - name: RelayAgent
+        summary: A mobile agent that decomposes user requests and delegates subtasks to in-app AI assistants, with GUI-agent fallback when needed.
+        highlights:
+          - Delegation-based mobile task automation
+          - Dynamic capability cards for in-app assistants
+          - Apache-2.0 open-source implementation
+        start_date: 2026
+        end_date: present
+
+      - name: StarfishOS
+        summary: A single-system-image operating system for CXL-based systems built around a state-partitioned microkernel architecture.
+        start_date: 2025
+        end_date: present
