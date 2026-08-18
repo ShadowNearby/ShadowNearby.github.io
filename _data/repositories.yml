@@ -1,0 +1,10 @@
+github_users:
+  - ShadowNearby
+
+repo_description_lines_max: 2
+
+github_repos:
+  - ShadowNearby/RelayAgent
+  - ShadowNearby/Minik8s
+  - ShadowNearby/R2RML
+  - ShadowNearby/concurrent
